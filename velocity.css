@@ -1,16 +1,11 @@
 * {
-<<<<<<< HEAD
+
     padding: 0;
     margin: 0;
 
 }
 
-html,body {background-color:black;}
-=======
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
+
 
 html,body {
 width: 100%;
@@ -37,6 +32,7 @@ background-color:black;
     font-size: 20px;
     color:white;
     font-weight:700;
+}
 
 /* css cho phan tren */
 .phantren img   {
@@ -52,7 +48,6 @@ background-color:black;
 
 }
 
-
 .phantren .carousel-caption a.btn {
     font-size: 18px;
     background: #ec6952;
@@ -64,4 +59,4 @@ background-color:black;
     bottom: 0;
     top: 50%;
   }
->>>>>>> 0b989bfd4d22f94501fcf6434fc057281b3e9568
+
