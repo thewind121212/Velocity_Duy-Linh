@@ -1,167 +1,58 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 html,body {
 width: 100%;
 height: 100%;
-}
-
-/* css cho phan tren */
-
-.phantren {
-    width: 100%;
-    height: 100%;
-   position: relative;
-   
-   display: block;
-   background-image:  url(hinh/bg-masthead.jpg);
-   background-size: cover;
-
-
+background-color:black;
 }
 
 
+/* css cho phan nav */
 
-
-.banner {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%);
-    padding: 0px;
-    z-index: 2;
-}
-
-.banner .indam700 {
-    font-weight: 700;
-}
-
-v
-
-.linhnut {
-    background:#f4623a;
-}
-
-.linhgach {
-    background: #f4623a;
-    height: 3px;
-    width: 50px;
-}
-
-/* css cho block 2 */
-
-.phanblock2 {
-    width: 100%;
-    height: 40%;
-    background: #f4623a;
-}
-
-.phanblock3 {
-    width: 100%;
+.phannav a{
+    color:white !important;
+    font-size: 13px;
+    margin: 0 15px 0 15px;
     
 }
 
-p.text-muted.mb-0 {
-    width: 200px;
+.phannav button {
+    background-color: transparent !important;
+    transform: scale(1.5)
+}
+
+.phannav .navbar-brand {
+    font-size: 20px;
+    color:white;
+    font-weight:700;
+
+/* css cho phan tren */
+.phantren img   {
+    object-fit: cover;
+    object-position: 0 0;
+    height:700px;
+}
+
+@media  ( max-width:576px) {
+.phantren img {
+    height:600px;
+}
+
 }
 
 
-.phanblock3 i {
-    color: #f4623a !important;
-}
-
-@media (max-width:576px) {
-
-    .phanblock2 {
-        width: 100%;
-        height: 60%;
-        background: #f4623a;
-    }
-
+.phantren .carousel-caption a.btn {
+    font-size: 18px;
+    background: #ec6952;
 
 }
 
-.phanblock4 {
-    background: #343A40;
-    width: 100%;
-    height: 40%;
-}
-
-
-
-.phanblock5 {
-    background:white;
-    width: 100%;
-    height: 69%;
-}
-
-.mauvang {
-    color:#f4623a;
-}
-
-.phanblock6 {
-
-    width: 100%;
-    height: 9%;
-}
-
-
-.duylinh.scrolled {
-    background-color:rgb(255, 255, 255) !important;
-    transition: 0.5s;
-
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 50%;
   }
-
-.duylinh a.scrolled { 
-        color: black !important;
-  }
-
-  .onoidung {
-      opacity: 0;
-      transition: 0.5s;
-  }
-
-  .onoidung:hover
-  {
-      opacity: 100;
-      background: rgba(244,98,58,.9);
-  }
-
-
-  @media (max-width:320px) {
-   .phantren {
-       height: 150%;
-   }
-
-   .phanblock2 {
-       height: 100%;
-   }
-   
-   .phanblock4 {
-       height: 100%;
-   }
-
-   .phanblock5 {
-       height: 150%;
-   }
-
-}
-
-@media (max-width:576px) {
-
-    .duylinh {
-      
-        background: white;
-    }
-    .indam700 {
-      
-        color:black !important;
-    }
-   
-
-
-}
-
