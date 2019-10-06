@@ -108,6 +108,23 @@ a.nav_1 {
 
 
 
+    @media  ( max-width:768px) {
+
+        .navbar-collapse {
+            background: #253340;
+        }
+
+
+        a.btn.btn-primary.btn-outline-white.text-uppercase {
+            background: #ec6952;
+        }
+
+    }
+
+    .navbar-collapse {
+        margin-top:5px;
+    }
+
 
 .phantren .carousel-caption a.btn {
     font-size: 18px;
@@ -248,3 +265,46 @@ a.dropdown-item.m-0.scrolled {
     color: #4a6781;
     margin-bottom: 30px;
 }
+
+/* css cho block 3 */
+
+span.download {
+    color: #ec6952;
+}
+
+
+<div class="container-fluid phanblock2 p-0 phanblock4">
+        <div class="container">
+                
+                <div class="row block2phan2 ">
+                      <div class="col-lg-5 col-sm-12 col-xl-4 ">
+                        <h3 class="title text-left">Connect your users</h3>
+                        <p>Explain one of your product benefits here. Let users know how they can benefit using your product. It’s also a good idea to back it up with a testimonial or tweet from your users.</p>
+                        <p class="mb-5">The original PSD of the graphic is included in the package. You can easily customise the PSD to meet your needs.</p>
+        
+                <div class="comment d-block position-relative">
+                        <div class="layerhinh position-absolute"><img src="hinh/profile-s-3.png" alt=""></div>
+                      <div class="commentlayer3 position-absolute"></div>
+                      <div class="commentlayer2 position-absolute rounded"></div>
+                      <div class="commentlayer1 position-absolute rounded pt-1 pl-2">
+                                <p><a href="https://twitter.com/3rdwave_themes" target="_blank">@velocity</a> I can connect to like-minded people lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                @JackT, San Francisco
+                      </div>
+                </div>
+ 
+
+                </div>
+                             <div class="col-lg-7 col-sm-12 col-xl-8">
+                                         <div class="card text-white bg-faded mx-3 border-0 mt-5 mt-xl-0">
+                                           <img class="card-img-top border-0 " src="hinh/figure-3.png" alt="">
+                                           <div class="card-body border-0">
+                                         <p class="figure-caption text-center">(Screenshot: Tempo - Bootstrap template for startups)</p>
+                                           </div>
+                                         </div>
+                             
+</div>
+
+                </div>
+                    <hr>
+        </div>
+</div>
