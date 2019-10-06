@@ -3,7 +3,7 @@ $('.carousel').carousel({
   });
 
   $(Window).scroll(function() {
-    $('div,a').toggleClass('scrolled', $(this).scrollTop() > 1);
+    $('div,a,i').toggleClass('scrolled', $(this).scrollTop() > 1);
   });
 
 
