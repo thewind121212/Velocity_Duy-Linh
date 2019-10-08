@@ -406,7 +406,11 @@ color:white;
   color:white;
 }
 
-.phanblock10 .phan2 span,p {
+.phanblock10 .phan2 span {
+    color:white;
+}
+
+.phanblock10 .phan2 p {
     color:white;
 }
 
