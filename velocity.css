@@ -405,3 +405,27 @@ color:white;
 .phanblock10 h3 {
   color:white;
 }
+
+.phanblock10 .phan2 span,p {
+    color:white;
+}
+
+.phanblock10 .phan2 i {
+    color:#b3b2b2; 
+    margin-right:10px;
+}
+
+.phanblock10 a.btn {
+    background: transparent;
+    color:#fff !important;
+}
+
+/* css cho phan block cuoi */
+.phanblockcuoi {
+    background-color: #1c2630;
+}
+
+.phanblockcuoi p {
+    color:#b3b2b2;
+    font-size:14px;
+}
