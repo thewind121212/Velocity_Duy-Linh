@@ -1,0 +1,174 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+html,body {
+width: 100%;
+height: 100%;
+
+}
+/* css cho phan nav */
+.phannav a{
+    color:white !important;
+    font-size: 13px;
+    margin: 0 15px 0 15px;
+    font-weight: 500;
+    
+}
+
+a.dropdown-item {
+    text-transform: capitalize;
+    font-size:14px ;
+    font-weight:400 !important;
+}
+a.btn.btn-primary.btn-outline-white.text-uppercase {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+a.btn.btn-primary.btn-outline-white.text-uppercase:hover {
+    background-color:#ec6952;
+}
+
+.phannav button {
+    background-color: transparent !important;
+    transform: scale(1.5)
+}
+
+.phannav .navbar-brand {
+    font-size: 20px;
+    color:white;
+    font-weight:700;
+    border: 1px solid #ec6952;;
+    background: #ec6952;
+    border-radius: 3px;
+    padding: 13px 33px 13px 33px;
+}
+
+a.nav_1 {
+    color:#ec6952 !important;
+}
+
+
+.dropdown:hover>.dropdown-menu
+{
+    display:block;
+}
+
+
+/* css cho phan block1 */
+.phanblock1 {
+    width: 100%;
+    height:850px;
+    background-image: url(hinhlogin/bg-screen-1.jpg);
+    background-size: cover;
+}
+
+.phanblock1 .container {
+    height: 100%;
+}
+
+.phanblock1 .boxgiua    {
+    width: 80%;
+    height:55%;
+    background: white;
+}
+
+/* css cho phan block 3 */
+
+p.tranduylinh::before {
+    content: '-----------------'
+   
+    
+}
+
+
+
+
+
+
+
+/* css cho phan block 9 */
+
+
+
+
+
+.phanblock9 ul li {
+    list-style-type: none;
+}
+
+.phanblock9 {
+    background-color: #253340;
+}
+
+.phanblock9 h3 {
+color:white;
+}
+
+.phanblock9 li {
+  color:  #7d9ab4;
+  margin-bottom: 10px;
+  font-size: 14;
+}
+
+.phanblock9 .phan2 i {
+    color:#b3b2b2;
+    font-size:23px;
+}
+
+.phanblock9 .phan2 i:hover {
+    color:#ec6952;
+    font-size:23px;
+    
+}
+
+.phanblock9 .phan2 p {
+    color:#b3b2b2;                  
+}
+
+.phanblock9 .phan2 button {
+    background-color: #5d80a1;
+    border : #5d80a1;
+}
+/* css cho phan block 10 */
+.phanblock10 {
+    background-color: #253340;
+}
+
+.phanblock10 h3 {
+  color:white;
+}
+
+.phanblock10 .phan2 span {
+    color:white;
+}
+
+.phanblock10 .phan2 p {
+    color:white;
+}
+
+.phanblock10 .phan2 i {
+    color:#b3b2b2; 
+    margin-right:10px;
+}
+
+.phanblock10 a.btn {
+    background: transparent;
+    color:#fff !important;
+}
+
+/* css cho phan block cuoi */
+.phanblockcuoi {
+    background-color: #1c2630;
+}
+
+.phanblockcuoi p {
+    color:#b3b2b2;
+    font-size:14px;
+}
