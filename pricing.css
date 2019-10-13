@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html,body
+{
+    height:100%;
+    
+}
+
+/* css cho phan nav */
+
+.phannav a{
+    color:white !important;
+    font-size: 13px;
+    margin: 0 15px 0 15px;
+    font-weight: 500;
+    
+}
+
+a.dropdown-item {
+    text-transform: capitalize;
+    font-size:14px ;
+    font-weight:400 !important;
+}
+a.btn.btn-primary.btn-outline-white.text-uppercase {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+a.btn.btn-primary.btn-outline-white.text-uppercase:hover {
+    background-color:#ec6952;
+}
+
+.phannav button {
+    background-color: transparent !important;
+    transform: scale(1.5)
+}
+
+.phannav .navbar-brand {
+    font-size: 20px;
+    color:white;
+    font-weight:700;
+    border: 1px solid #ec6952;;
+    background: #ec6952;
+    border-radius: 3px;
+    padding: 13px 33px 13px 33px;
+}
+
+a.nav_1 {
+    color:#ec6952 !important;
+}
+
+
+.dropdown:hover>.dropdown-menu
+{
+    display:block;
+}
+
+/* css cho phan block1 */
+
+
+
+
+.blockpre1 {
+    width: 100%;
+    height:1000px;
+    background: white;
+}
+
+
+
+
+
+
+.block1 {
+
+    width: 100%;
+    height:1000px;
+}
+
+ img.nentren {
+     object-fit: cover;
+     object-position: 0 0;
+     width: 100%;
+     height: 60%;
+}
+
+.block1 .cangiua {
+    width: 100%;
+    height:100%;
+    
+}
+
+.navbar-brand.scrolled {
+    background: transparent;
+    border: none;
+    transition: 0.5s;
+    color:#ec6952;
+}  
+
+a.btn.btn-primary.btn-outline-white.text-uppercase.scrolled {
+    background: #ec6952;
+    border: none;
+    transition: 0.5s;
+    color: white !important;
+}  
+
+
+.phannav a.scrolled {
+    color: #666 !important;
+    transition: 0.5s;
+}  
+
+.phannav.scrolled {
+    background-color:rgb(255, 255, 255) !important;
+    transition: 0.5s;
+
+
+  }
+
+
+.boxpricing {
+    width: 100%;
+}
+
+.boxpricing h3 {
+  
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: 1px dashed #eee;
+    color: #444;    
+    margin-top:30px;
+    padding-bottom:30px;
+}
+
+.boxpricing li {
+    list-style-type: none;
+}
+
+.boxpricing .khoipricing {
+    border: 1px solid #EEEEEE;
+    background-color:white;
+}
+
+
+.block1 span.number {
+    font-weight: bold;
+    font-size:42px;
+}
+
+.block1 span.currency {
+    font-size:18px;
+    color: #666;
+    bottom: 5px;
+    
+}
